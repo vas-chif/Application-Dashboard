@@ -1,0 +1,12 @@
+@import url(component/LocationCard.css);
+@import url(component/PlanningCard.css);
+@import url(component/TwoColumns.css);
+@import url(component/StatsCard.css);
+@import url(component/WeeklyChart.css);
+@import url(component/App.css);
+
+html {
+    font-family: Cormorant;
+    --color-blue: #369FFF;
+    --color-dark-blue: #006ED3;
+}

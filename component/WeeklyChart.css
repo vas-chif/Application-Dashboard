@@ -1,0 +1,25 @@
+.weekly-chart {
+    height: 315px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.weekly-chart-item {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.weekly-chart-item-bar {
+    background-color: #369FFF;
+    border-radius: 99999px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.weekly-chart-item-text {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}

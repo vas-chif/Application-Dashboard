@@ -1,0 +1,49 @@
+.location-card {
+    /* min-width: 150px; */
+    /* it move of the left to the right */
+    padding-inline: 25px;
+    /* it move of the top to the bottom */
+    padding-top: 15px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgb(159, 159, 159, 0.4);
+    position: relative;
+    min-height: 150px;
+}
+
+.location-card h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.location-card small {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.location-card .left-shape {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.location-card .right-shape {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.location-card .content-wrapper {
+    position: relative;
+
+}
+
+.location-card .image {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.location-card .heading-french {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+.app {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* "*" = find all the element inside the class page
+            ">" = alignat all the element at the same point in the class page */
+.app>* {
+    padding: 20px;
+}
+
+.app>main {
+    border-right: 2px solid #f0f0f0;
+    border-top: none;
+    border-bottom: none;
+}

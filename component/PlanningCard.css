@@ -1,0 +1,32 @@
+.planning-card {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 16px;
+    display: flex;
+    /*aginin vertica*/
+    align-items: center;
+    /*aginin orisontali*/
+    justify-items: center;
+    gap: 15px;
+}
+
+.planning-card-title {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.planning-card-hours {
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+.planning-card-action {
+    border: 0;
+    background-color: transparent;
+    margin-left: auto;
+}
+
+/* .planning-card-image {} */
